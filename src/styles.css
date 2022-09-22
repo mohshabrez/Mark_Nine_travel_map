@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Caveat", cursive;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: rgb(226, 223, 223);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading {
+  font-weight: 800;
+}
+
+.subheading {
+  font-weight: 500;
+}
+.genre {
+  display: flex;
+  gap: 20px;
+}
+button {
+  padding: 0.5rem 1rem;
+  color: var(--secondary-color);
+  background-color: #8acbdb;
+  border-radius: 12px;
+  font-family: "Caveat", cursive;
+  cursor: pointer;
+  border: 1rem;
+  border-color: var(--secondary-color);
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.out {
+  width: 60%;
+  padding: 16px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place_name {
+  font-weight: 600;
+  color: #999;
+}
+
+.place_name:hover {
+  color: antiquewhite;
+}
